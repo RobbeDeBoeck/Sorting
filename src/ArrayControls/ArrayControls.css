@@ -1,0 +1,15 @@
+.array-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.array-controls .group {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.array-controls .group label {
+    display: block;
+}
