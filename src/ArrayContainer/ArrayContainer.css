@@ -1,0 +1,32 @@
+.array-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.array-controls .group {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.array-controls .group label {
+    display: block;
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 5px;
+}
+
+.array-container .array-bar {
+    flex-grow: 1;
+    background-color: aquamarine;
+    margin: 0 1px;
+}
+
+.array-container .array-bar.active {
+    background-color: red;
+}
