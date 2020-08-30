@@ -15,5 +15,5 @@ export default class ArrayContainer extends Component {
 }
 
 ArrayContainer.propTypes = {
-    array: PropTypes.arrayOf(PropTypes.number),
+    array: PropTypes.arrayOf(PropTypes.number).isRequired,
 };

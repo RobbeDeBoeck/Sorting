@@ -66,10 +66,10 @@ export default class ArrayControls extends Component {
 }
 
 ArrayControls.propTypes = {
-    onMount: PropTypes.func,
-    disabled: PropTypes.bool,
-    randomize: PropTypes.func,
-    changeSpeed: PropTypes.func,
-    changeAlgorithm: PropTypes.func,
-    sort: PropTypes.func,
+    onMount: PropTypes.func.isRequired,
+    disabled: PropTypes.bool.isRequired,
+    randomize: PropTypes.func.isRequired,
+    changeSpeed: PropTypes.func.isRequired,
+    changeAlgorithm: PropTypes.func.isRequired,
+    sort: PropTypes.func.isRequired,
 };
